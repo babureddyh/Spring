@@ -5,7 +5,7 @@ import com.babu.spring.learning.aop.service.ShapeService;
 
 public class AopMain {
 
-	public static void main(String[] args) {
+	public static void main(String[] arguments) {
 		// TODO Auto-generated method stub
 		AbstractApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
 		ShapeService shapeService = context.getBean("shapeService", ShapeService.class);
